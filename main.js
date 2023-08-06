@@ -77,7 +77,7 @@ const lazyLoading = () => {
     });
 };
 
-const backTop = () => {
+const topFunction = () => {
     // Get the button:
 let mybutton = document.getElementById("myBtn");
 
@@ -102,4 +102,4 @@ function topFunction() {
 mobileNav();
 darkMode();
 lazyLoading();
-backTop();
+topFunction();
